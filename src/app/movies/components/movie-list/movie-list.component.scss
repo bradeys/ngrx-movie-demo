@@ -1,0 +1,14 @@
+.mat-table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th, td {
+    border: solid 1px lightgrey;
+    padding: 0 16px;
+  }
+}
+
+.mat-column-year {
+  text-align: center;
+  width: 50px;
+}

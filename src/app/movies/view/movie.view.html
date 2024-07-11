@@ -1,0 +1,8 @@
+<ng-container *ngIf="viewModel$ | async as viewModel">
+  <app-movie-list [movies]="viewModel.movies"
+                  [sort]="viewModel.sort"
+                  [pagination]="viewModel.pagination"
+                  (sortChange)="onSortChange($event)"
+                  (paginationChange)="onPaginationChange($event)">
+  </app-movie-list>
+</ng-container>
